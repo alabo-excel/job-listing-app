@@ -1,0 +1,97 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            max-width: 100%;
+            background-color: hsl(180, 52%, 96%)!important;
+        }
+        
+        header {
+            background-color: hsl(180, 29%, 50%);
+        }
+        
+        header img {
+            width: 100%;
+        }
+        
+        .row {
+            margin-right: 0px!important;
+        }
+        
+        .img {
+            width: 120px;
+            height: 120px;
+        }
+        
+        .col-10 {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 5px rgb(250, 250, 250);
+            border-left: 5px solid hsl(180, 8%, 52%);
+        }
+        
+        .tag div {
+            background-color: hsl(180, 31%, 95%);
+            margin: 10px;
+            height: 40px;
+            padding: 8px;
+            border-radius: 5px;
+            color: hsl(180, 8%, 52%);
+            font-weight: 700;
+            margin-top: 40px;
+        }
+        
+        ul li {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        
+        .second {
+            margin-left: -100px;
+            color: hsl(180, 8%, 52%);
+        }
+        
+        #dark {
+            background-color: hsl(180, 14%, 20%);
+            padding: 8px;
+            border-radius: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            color: white;
+        }
+        
+        #light {
+            background-color: hsl(180, 8%, 52%);
+            padding: 8px;
+            border-radius: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            color: white;
+        }
+        
+        #name {
+            margin-right: 10px;
+            padding-top: 8px;
+            font-weight: 700;
+        }
+        
+        @media(max-width: 450px) {
+            .second {
+                margin-left: 10px;
+            }
+            .img {
+                width: 50px;
+                height: 50px;
+                margin-top: -50px;
+            }
+            hr {
+                width: 100%;
+            }
+            .row {
+                margin-left: 0px!important;
+            }
+        }
